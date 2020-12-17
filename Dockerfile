@@ -15,7 +15,7 @@ RUN apt-get -y update \
         ant \
         ant-optional \
         junit4 \
-        libhamcrest-java
+        libhamcrest-java \
  && apt-get -y clean \
  && rm -rf /var/lib/apt/lists/*
 
